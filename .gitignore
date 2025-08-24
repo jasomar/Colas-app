@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build / dist
+dist/
+
+
+# Environment files
+.env
+.env.*
+
+# Dependency caches
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IIS / Windows specifics
+*.pid
+*.log
+iisnode/
+*.user
+
+# Coverage reports
+coverage/
+
+# Temp files
+*.tmp
+*.swp
+*.bak
+
+# Optional for frontend frameworks
+public/
+.cache/
+.next/
+out/
+.temp/
