@@ -3,6 +3,8 @@ const TicketControl = require("../models/ticket-control");
 const ticketControl = new TicketControl();
 
 const socketController = (socket) => {
+
+    socket.emit('ultimo-ticket', ticketControl.ultimo );
     
     socket.on('sigiente-ticket', ( payload, callback ) => {
         const siguiente = ticketControl.siguiente();
