@@ -52,7 +52,7 @@ class TicketControl {
         return 'Ticket ' + ticket.numero;
     }
 
-    artenderTicket( escritorio ){
+    atenderTicket( escritorio ){
         if ( this.tickets.length === 0 ) {
             return null;
         }
